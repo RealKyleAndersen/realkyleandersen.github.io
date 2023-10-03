@@ -103,6 +103,15 @@ nav{
     padding: 5rem 2rem;
 }
 
+.container h2{
+    color: #7fff7f;
+    text-shadow: 0 0 1ex #3f3,0 0 2px rgba(255,255,255,.8);
+}
+.container p {
+    color: #7fff7f;
+    text-shadow: 0 0 1ex #3f3,0 0 2px rgba(255,255,255,.8);
+}
+
 .blur{
     position: absolute;
     box-shadow: 0 0 1000px 50px #1d4ed8;
@@ -388,6 +397,10 @@ footer .column > a:hover{
     footer{
         grid-template-columns: 1fr 200px;
     }
+}
+
+main {
+    padding: 50px;
 }
 
 @media (width < 600px){
