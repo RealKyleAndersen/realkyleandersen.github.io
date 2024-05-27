@@ -311,3 +311,35 @@ main {
 .color-button:nth-child(4) {
     background-color: #ffff33;
 }
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+    background-color: #001824; /* Match the body background color */
+}
+
+.video-section h1 {
+    margin-bottom: 2rem;
+    color: #7fff7f;
+    text-shadow: 0 0 1ex #3f3, 0 0 2px rgba(255, 255, 255, .8);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.video-section iframe {
+    width: 100%;
+    max-width: 800px;
+    border: 2px solid #7fff7f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-section p {
+    color: #7fff7f;
+    text-shadow: 0 0 1ex #3f3, 0 0 2px rgba(255, 255, 255, .8);
+    text-align: center;
+    max-width: 800px;
+}
